@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:trade_brain_1/db%20%20functions/db_function.dart';
+import 'package:trade_brain_1/view/home_screen/sample_listing.dart';
 import 'package:trade_brain_1/view/splash_screen/splash_screen.dart';
 
 void main(List<String> args) async {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: GoogleFonts.roboto().fontFamily,
       ),
-      home: const SplashScreen(),
+      home: const SamplePage(),
     );
   }
 }

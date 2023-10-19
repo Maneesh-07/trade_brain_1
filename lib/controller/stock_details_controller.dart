@@ -14,4 +14,5 @@ class StockDetailsController extends GetxController {
       print('Error fetching stock details: $e');
     }
   }
+  
 }
